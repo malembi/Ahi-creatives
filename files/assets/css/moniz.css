@@ -2785,6 +2785,7 @@ body.boxed-wrapper {
   border-bottom-left-radius: 10px;
 }
 
+
 .we-change__agency {
   position: absolute;
   bottom: 0;
@@ -3085,6 +3086,38 @@ body.boxed-wrapper {
   background-color: var(--moniz-primary, #fc653c);
   color: var(--moniz-base, #ffffff);
 }
+table {
+            margin: 130px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        th, td {
+            border: 1px solid rgb(214, 210, 210);
+            padding: 8px;
+            text-align: left;
+       
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .package-row-label {
+            width: 20%;
+          
+        }
+        .package-type-price {
+            width: 26.66%;
+            
+        }
+        .price-wrapper {
+            margin-bottom: 5px;
+        }
+        .type {
+            display: block;
+        }
+        .title {
+            display: block;
+            font-weight: bold;
+        }
 
 /*--------------------------------------------------------------
 # Portfolio One
